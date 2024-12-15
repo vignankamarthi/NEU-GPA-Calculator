@@ -106,14 +106,20 @@ public class GPACalculator {
         currentCourses.add(new Course("Recitation for Discrete Math", "A", 1));
         currentCourses.add(new Course("Psychology 101", "A", 4));
         currentCourses.add(new Course("English 101", "A", 4));
+
         currentCourses.add(new Course("Introduction to Information Systems and Digital Technologies", "A-", 4));
         currentCourses.add(new Course("Business Statistics", "A-", 4));
         currentCourses.add(new Course("Music in Everyday Life", "A", 4));
+
         currentCourses.add(new Course("Financial Accounting", "A", 4));
         currentCourses.add(new Course("Fundamentals of Computer Science 2", "B", 4));
         currentCourses.add(new Course("Lab for Fundamentals of Computer Science 2", "B", 1));
         currentCourses.add(new Course("Managerial Accounting", "A", 4));
         currentCourses.add(new Course("Algorithms", "A", 4));
+
+        currentCourses.add(new Course("Foundations of Data Science", "A", 4));
+        currentCourses.add(new Course("Financial Management", "A", 4));
+        currentCourses.add(new Course("Microeconomics", "A", 4));
 
         // creating a CoursesList object for the initial courses
         CoursesList currentCoursesList = new CoursesList(currentCourses);
@@ -129,9 +135,11 @@ public class GPACalculator {
         List<Course> futureCourses = new ArrayList<>(currentCourses);
 
         // adding additional courses to the list
-        futureCourses.add(new Course("Financial Management", "A", 4));
-        futureCourses.add(new Course("Foundations of Data Science", "A", 4));
-        futureCourses.add(new Course("Microeconomics", "A", 4));
+        futureCourses.add(new Course("Object Oriented Design", "A", 4));
+        futureCourses.add(new Course("Lab for Object Oriented Design", "A", 1));
+        futureCourses.add(new Course("Data Base Design", "A", 4));
+        futureCourses.add(new Course("Linear Algebra", "A", 4));
+        futureCourses.add(new Course("Technology and Human Values", "A", 4));
 
         // Create a CoursesList object for the potential courses
         CoursesList futureCoursesList = new CoursesList(futureCourses);
