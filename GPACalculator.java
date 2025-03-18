@@ -135,11 +135,11 @@ public class GPACalculator {
         List<Course> futureCourses = new ArrayList<>(currentCourses);
 
         // adding additional courses to the list
-        futureCourses.add(new Course("Object Oriented Design", "A", 4));
-        futureCourses.add(new Course("Lab for Object Oriented Design", "A", 1));
-        futureCourses.add(new Course("Data Base Design", "A", 4));
-        futureCourses.add(new Course("Linear Algebra", "A", 4));
+        futureCourses.add(new Course("Object Oriented Design", "B+", 4));
+        futureCourses.add(new Course("Lab for Object Oriented Design", "B+", 1));
+        futureCourses.add(new Course("Data Base Design", "A-", 4));
         futureCourses.add(new Course("Technology and Human Values", "A", 4));
+        futureCourses.add(new Course("Co-Op Class", "A", 1));
 
         // Create a CoursesList object for the potential courses
         CoursesList futureCoursesList = new CoursesList(futureCourses);
